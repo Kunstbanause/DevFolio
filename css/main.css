@@ -702,3 +702,17 @@ section .row span {
     max-width: 100%;
     align-self:center;
 }
+
+.btn-personal {
+    border-radius:5px;
+    color:#3620c4;
+    border:2px solid #64a569
+}
+.btn-personal::after {
+    background:#64a569
+}
+
+.btn-personal:hover {
+    background-color:#f0ffd0;
+    color:#f0ffd0;
+}
