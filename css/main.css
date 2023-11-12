@@ -557,6 +557,20 @@ section .row span {
   margin-top:-15rem;
   padding-top:15rem
 }
+
+#projects .personal {
+    background-color:#f0ffd0;
+    color:#3620c4;
+    margin-top:-6rem;
+    padding-top:12rem;
+}
+
+#projects .personal-sub {
+    margin-top:-1rem;
+    padding-bottom:4em;
+    font-size:1.8rem
+}
+
 @media(max-width: 75em) {
   #projects {
     margin-top:0;
@@ -648,12 +662,12 @@ section .row span {
 }
 
 #projects .project-wrapper__image_personal {
-    width:90%;
-    margin:0 auto
+    width:60%;
+    margin:0
   }
   @media(max-width: 75em) {
     #projects .project-wrapper__image_personal {
-      width:60%;
+      width:50%;
       margin:0
     }
   }
@@ -681,3 +695,10 @@ section .row span {
     margin:0 auto
     vertical-align:right;
   }
+
+
+.spline{
+    background-color:#a4b9fd;
+    max-width: 100%;
+    align-self:center;
+}

@@ -277,14 +277,14 @@ Have fun creating your portfolio on this template!!! -->
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper">
-          <!-- <p class="contact-wrapper__text">GET IN TOUCH!</p> -->
+          <p class="contact-wrapper__text">Let's get in touch:</p> 
           <a href="https://www.linkedin.com/in/benjamin-westphal-b183a920"
                     class="cta-btn cta-btn--resume">LinkedIn</a>
           <a id = "email" href="mailto:%42%65%6e%6a%61%6d%69%6e%2e%57%65%73%74%70%68%61%6c%40%69%63%6c%6f%75%64%2e%63%6f%6d"
-                    class="cta-btn cta-btn--resume">Mail</a>
+                    class="cta-btn cta-btn--resume"><i class="fa-regular fa-envelope"></i> Mail</a>
           <br>
           <a href="https://drive.google.com/uc?export=download&id=1IVTWImvk7RM5fVmYy6ijtHWfp0gDDBIy"
-                    class="cta-btn cta-btn--resume">Download CV</a>
+                    class="cta-btn cta-btn--resume"><i class="fa-regular fa-file"></i> Download CV</a>
         </div>
       </div>
     </section>
@@ -292,46 +292,108 @@ Have fun creating your portfolio on this template!!! -->
 
     <!--Personal Projects Section-->
     <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Personal Projects</h2>
-          <!-- N64 -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Game: Nintendo 64 Wedding Gift</h3>
-              <p class="project-wrapper__text-info">
-                When my best buddy got married I wanted to gift something special. We used to play Nintendo 64 games
-                all the time and I wanted to call back to these memories. Thus this hobbyist project was born:
-                Create a custom N64 game that runs on the original hardware (homebrew). Little did I know that this 
-                project would end up taking more than a year and teach me some incredible lessons along the way:
-                <br>• <b>Blender</b> low poly modeling and texturing
-                <br>• N64 library and tool chain on <b>WSL</b>, programming in C.
-                <br>• And finally getting the project on an actual N64 cartridge.
-              </p>
-              <div class="project-wrapper__text-btns">
-                <a href="https://drive.google.com/uc?export=download&id=1DUzjoZ7otP_4mfDuwjMBfJFWDh5co-4_" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
-                  >Download N64 ROM</a
-                >
-              </div>
-            </div>
-
-            <div class="project-wrapper__image_personal">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/n64.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="485"
-                    height="467"
-                  />
+      <div class="personal">
+       <div class="container">
+          <div class="project-wrapper">
+            <h2 class="section-title dark-blue-text">Personal Projects</h2>
+            <h3 class="personal-sub">Oh, fun! You found my secret hobbyist section:</h3>
+            <br>
+            <!-- N64 -->
+            <article class="row">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Game: Nintendo 64 Wedding Gift</h3>
+                <p class="project-wrapper__text-info">
+                  When my best buddy got married I wanted to gift something special. We used to play Nintendo 64 games
+                  all the time and I wanted to call back to these memories. Thus this hobbyist project was born:
+                  Create a custom N64 game that runs on the original hardware (homebrew). Little did I know that this 
+                  project would end up taking more than a year and teach me some incredible lessons along the way:
+                  <br>• <b>Blender</b> low poly modeling and texturing
+                  <br>• N64 library and tool chain on <b>WSL</b>, programming in C.
+                  <br>• And finally getting the project on an actual N64 cartridge.
+                </p>
+                <div class="project-wrapper__text-btns">
+                  <a href="https://drive.google.com/uc?export=download&id=1DUzjoZ7otP_4mfDuwjMBfJFWDh5co-4_" target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
+                    >Download N64 ROM</a
+                  >
                 </div>
-            </div>
-          </article>
-          <!-- /END Project -->
+              </div>
+              <div class="project-wrapper__image_personal">
+                  <div class="thumbnail rounded">
+                    <img
+                      src="./assets/n64.png"
+                      class="img-fluid"
+                      alt="Project Image"
+                      width="485"
+                      height="467"
+                    />
+                  </div>
+                  <div class="thumbnail rounded">
+                    <a href="./assets/vscode.png" target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="./assets/vscode.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="485"
+                        height="467"
+                      />
+                    </a>
+                  </div>
+              </div>
+            </article>
+            <!-- /END Project -->
+
+            <!-- Godot -->
+            <article class="row">
+              <div class="project-wrapper__text">
+                <h3 class="project-wrapper__text-title">Game: Godot Project: WaveRacer</h3>
+                <p class="project-wrapper__text-info">
+                  A simple hobbyist project to keep me occupied and teach me the ropes of the godot engine.
+                  Includes a couple of fun elements:
+                  <br>• <b>Buoyancy</b> physics for the jetski on the water
+                  <br>• <b>Low Poly Modeling</b> of the environment and jet ski 
+                  <br>• <b>Shader & Effects</b> for the weather system, speed effects and water
+                </p>
+                <div class="project-wrapper__text-btns">
+                  <a href="https://drive.google.com/uc?export=download&id=1WYHPeJLRAHIhx5tZ74qB0HqwZ36O1oe_"
+                      target="_blank" class="cta-btn cta-btn--hero cta-btn--projects"
+                    >Download</a
+                  >
+                </div>
+              </div>
+
+              <div class="project-wrapper__image_personal">
+                  <div class="thumbnail rounded">
+                    <img
+                      src="./assets/jetski.gif"
+                      class="img-fluid"
+                      alt="Project Image"
+                      width="565"
+                      height="506"
+                    />
+                  </div>
+                  <div class="thumbnail rounded">
+                    <a href="./assets/godot.png" target="_blank" rel="noopener noreferrer">
+                      <img
+                        src="./assets/godot.png"
+                        class="img-fluid"
+                        alt="Project Image"
+                        width="1920"
+                        height="1040"
+                      />
+                    </a>
+                  </div>
+                  <!-- <div class="spline" id="spline-container">
+                    <spline-viewer url="https://prod.spline.design/mfaJeBbrOz9wEZ9B/scene.splinecode">
+                    </spline-viewer>
+                  </div> -->
+              </div>
+            </article>
+            <!-- /END Project -->
+          </div>
         </div>
       </div>
     </section>
-
+    
     <!-- Footer Section -->
     <footer class="footer">
       <div class="container">
@@ -348,12 +410,20 @@ Have fun creating your portfolio on this template!!! -->
             <i class="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="href="mailto:%42%65%6e%6a%61%6d%69%6e%2e%57%65%73%74%70%68%61%6c%40%69%63%6c%6f%75%64%2e%63%6f%6d""
+            href="mailto:%42%65%6e%6a%61%6d%69%6e%2e%57%65%73%74%70%68%61%6c%40%69%63%6c%6f%75%64%2e%63%6f%6d"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Mail"
           >
-            <i class="fa-brands fa-m"></i>
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+          <a
+            href="https://drive.google.com/uc?export=download&id=1IVTWImvk7RM5fVmYy6ijtHWfp0gDDBIy"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Mail"
+          >
+            <i class="fa-solid fa-file fa-2xs"> CV</i>
           </a>
         </div>
         <hr />
@@ -364,6 +434,7 @@ Have fun creating your portfolio on this template!!! -->
     </footer>
     <!-- END Footer Section -->
 
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.496/build/spline-viewer.js"></script>
     <script>
       document.getElementById("year").textContent = new Date().getFullYear()
     </script>
