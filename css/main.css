@@ -718,3 +718,49 @@ section .row span {
     background-color:#f0ffd0;
     color:#f0ffd0;
 }
+
+
+section .row-personal {
+  display:grid;
+  gap:2rem;
+  grid-template-columns:1fr 2fr;
+  grid-template-rows:1fr;
+  padding:0 1.5rem
+}
+@media(max-width: 56.25em) {
+  section .row-personal {
+    grid-template-columns:1fr;
+    grid-template-rows:auto
+  }
+}
+@media(max-width: 37.5em) {
+  section .row-personal {
+    padding:0
+  }
+}
+@media(max-width: 56.25em) {
+  section .row-personal {
+    grid-template-columns:1fr;
+    grid-template-rows:auto
+  }
+}
+@media(max-width: 37.5em) {
+  section .row-personal {
+    padding:0
+  }
+}
+section .row-personal p+p {
+  margin-top:1rem
+}
+section .row-personal span {
+  margin-top:2rem
+}
+#projects .project-wrapper .row-personal {
+  margin:0;
+  margin-bottom:8rem
+}
+@media(max-width: 37.5em) {
+  #projects .project-wrapper .row-personal {
+    margin-bottom:4rem
+  }
+}
