@@ -483,7 +483,7 @@ section .row span {
 }
 @media(max-width: 56.25em) {
   #hero .hero-cta {
-    justify-content:left
+    justify-content:center
   }
 }
 #hero .hero-cta a {
