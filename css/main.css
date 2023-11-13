@@ -479,7 +479,8 @@ section .row span {
   }
 }
 #hero .hero-cta {
-  display:flex
+  display:flex;
+  justify-content:left
 }
 @media(max-width: 56.25em) {
   #hero .hero-cta {
@@ -496,7 +497,7 @@ section .row span {
 }
 .scroll-down-link {
   position:absolute;
-  left:50%;
+  left:10%;
   bottom:20px;
   transform:translateX(-50%)
 }
