@@ -723,20 +723,9 @@ section .row span {
 section .row-personal {
   display:grid;
   gap:2rem;
-  grid-template-columns:1fr 2fr;
+  grid-template-columns:1fr 1fr;
   grid-template-rows:1fr;
   padding:0 1.5rem
-}
-@media(max-width: 56.25em) {
-  section .row-personal {
-    grid-template-columns:1fr;
-    grid-template-rows:auto
-  }
-}
-@media(max-width: 37.5em) {
-  section .row-personal {
-    padding:0
-  }
 }
 @media(max-width: 56.25em) {
   section .row-personal {
